@@ -1,3 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configs>
+
+    <append xpath="/blocks">
+
+        <block name="mhaStorageApplianceBase">
+            <property name="Extends" value="cntSteelWritableCrate"/>
+            <property name="CreativeMode" value="None"/>
+            <property name="DowngradeBlock" value="air"/>
+            <property name="CanPickup" value="true"/>
+        </block>
+
+        <block name="mhaRetroStorageFridge">
+            <property name="Extends" value="mhaStorageApplianceBase"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="CustomIcon" value="cntRetroFridgeVer1Closed"/>
+            <property name="DescriptionKey" value="mhaRetroStorageFridgeDesc"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="@:Entities/Appliances/fridgeRetroClosedPrefab.prefab" param1="main_mesh"/>
+            <property name="MultiBlockDim" value="1,2,1"/>
+            <property name="DisplayType" value="blockMulti"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="AllowedRotations" value="Basic90"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="1200"/>
+
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="5"/>
+                <property name="resourceElectricParts" value="5"/>
+            </property>
+
+            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+            <drop event="Harvest" name="resourceScrapIron" count="5,10" tag="salvageHarvest"/>
+            <drop event="Destroy" count="0"/>
+        </block>
+
+    </append>
+
 </configs>
