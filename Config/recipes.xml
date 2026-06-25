@@ -3,18 +3,32 @@
 <configs>
     <append xpath="/recipes">
 
-        <recipe name="mhaRetroStorageFridge" count="1" craft_time="90">
+        <recipe name="mhaRetroStorageFridge" count="1" craft_time="180">
             <ingredient name="resourceForgedIron" count="25"/>
             <ingredient name="resourceElectricParts" count="18"/>
             <ingredient name="resourceMechanicalParts" count="18"/>
             <ingredient name="resourceRadiator" count="1"/>
         </recipe>
 
-        <recipe name="mhaStainlessStorageFridge" count="1" craft_time="90">
+        <recipe name="mhaStainlessStorageFridge" count="1" craft_time="180">
             <ingredient name="resourceForgedIron" count="25"/>
             <ingredient name="resourceElectricParts" count="18"/>
             <ingredient name="resourceMechanicalParts" count="18"/>
             <ingredient name="resourceRadiator" count="1"/>
+        </recipe>
+
+        <recipe name="mhaRetroKitchenStove" count="1" craft_time="180">
+            <ingredient name="resourceForgedIron" count="25"/>
+            <ingredient name="resourceElectricParts" count="18"/>
+            <ingredient name="resourceMechanicalParts" count="18"/>
+            <ingredient name="resourceMetalPipe" count="4"/>
+        </recipe>
+
+        <recipe name="mhaModernKitchenStove" count="1" craft_time="180">
+            <ingredient name="resourceForgedIron" count="25"/>
+            <ingredient name="resourceElectricParts" count="18"/>
+            <ingredient name="resourceMechanicalParts" count="18"/>
+            <ingredient name="resourceMetalPipe" count="4"/>
         </recipe>
 
     </append>

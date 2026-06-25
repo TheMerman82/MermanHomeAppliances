@@ -13,6 +13,7 @@
         <block name="mhaRetroStorageFridge">
             <property name="Extends" value="mhaStorageApplianceBase"/>
             <property name="CreativeMode" value="Player"/>
+            <property name="NameKey" value="mhaRetroStorageFridge"/>
             <property name="CustomIcon" value="cntRetroFridgeVer1Closed"/>
             <property name="DescriptionKey" value="mhaRetroStorageFridgeDesc"/>
             <property name="Material" value="Mmetal"/>
@@ -24,12 +25,10 @@
             <property name="AllowedRotations" value="Basic90"/>
             <property name="Path" value="solid"/>
             <property name="MaxDamage" value="1200"/>
-
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="5"/>
                 <property name="resourceElectricParts" value="5"/>
             </property>
-
             <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
             <drop event="Harvest" name="resourceScrapIron" count="5,10" tag="salvageHarvest"/>
             <drop event="Destroy" count="0"/>
@@ -38,6 +37,7 @@
         <block name="mhaStainlessStorageFridge">
             <property name="Extends" value="mhaStorageApplianceBase"/>
             <property name="CreativeMode" value="Player"/>
+            <property name="NameKey" value="mhaStainlessStorageFridge"/>
             <property name="CustomIcon" value="cntFridgeStainlessSteel"/>
             <property name="DescriptionKey" value="mhaStainlessStorageFridgeDesc"/>
             <property name="Material" value="Mmetal"/>
@@ -49,12 +49,70 @@
             <property name="AllowedRotations" value="Basic90"/>
             <property name="Path" value="solid"/>
             <property name="MaxDamage" value="1200"/>
-
             <property class="RepairItems">
                 <property name="resourceForgedIron" value="5"/>
                 <property name="resourceElectricParts" value="5"/>
             </property>
+            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+            <drop event="Harvest" name="resourceScrapIron" count="5,10" tag="salvageHarvest"/>
+            <drop event="Destroy" count="0"/>
+        </block>
 
+        <block name="mhaRetroKitchenStove">
+            <property name="Extends" value="campfire"/>
+            <property name="CreativeMode" value="Player"/>
+             <property name="NameKey" value="mhaRetroKitchenStove"/>
+            <property name="CustomIcon" value="cntStoveOldVer1Closed"/>
+            <property name="DescriptionKey" value="mhaRetroKitchenStoveDesc"/>
+            <property name="WorkstationWindow" value="workstation_campfire"/>
+            <property class="Workstation">
+                 <property name="Modules" value="tools,output,fuel,input"/>
+                 <property name="CraftingAreaRecipes" value="campfire"/>
+                 <property name="Collide" value="melee,bullet,arrow,rocket"/>
+            </property>
+            <property name="Material" value="Mmetal"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="@:Entities/LootContainers/stoveElectricRetro_01Prefab.prefab"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="1200"/>
+            <property name="CanPickup" value="true"/>
+            <property name="DowngradeBlock" value="air"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="5"/>
+                <property name="resourceElectricParts" value="5"/>
+                <property name="resourceMechanicalParts" value="5"/>
+            </property>
+            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+            <drop event="Harvest" name="resourceScrapIron" count="5,10" tag="salvageHarvest"/>
+            <drop event="Destroy" count="0"/>
+        </block>
+
+        <block name="mhaModernKitchenStove">
+            <property name="Extends" value="campfire"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="NameKey" value="mhaModernKitchenStove"/>
+            <property name="CustomIcon" value="cntStoveModernVer1Closed"/>
+            <property name="DescriptionKey" value="mhaModernKitchenStoveDesc"/>
+            <property name="WorkstationWindow" value="workstation_campfire"/>
+            <property class="Workstation">
+                <property name="Modules" value="tools,output,fuel,input"/>
+                <property name="CraftingAreaRecipes" value="campfire"/>
+                <property name="Collide" value="melee,bullet,arrow,rocket"/>
+            </property>
+            <property name="Material" value="Mmetal"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="@:Entities/LootContainers/stoveElectricModern_01Prefab.prefab"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="Path" value="solid"/>
+            <property name="MaxDamage" value="1200"/>
+            <property name="CanPickup" value="true"/>
+            <property name="DowngradeBlock" value="air"/>
+            <property class="RepairItems">
+                <property name="resourceForgedIron" value="5"/>
+                <property name="resourceElectricParts" value="5"/>
+                <property name="resourceMechanicalParts" value="5"/>
+            </property>
             <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
             <drop event="Harvest" name="resourceScrapIron" count="5,10" tag="salvageHarvest"/>
             <drop event="Destroy" count="0"/>
