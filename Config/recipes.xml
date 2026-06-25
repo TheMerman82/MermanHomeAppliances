@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configs>
 
+<configs>
     <append xpath="/recipes">
-        <recipe name="mhaRetroStorageFridge" count="1" craft_time="20">
+
+        <recipe name="mhaRetroStorageFridge" count="1" craft_time="90">
             <ingredient name="resourceForgedIron" count="25"/>
             <ingredient name="resourceElectricParts" count="18"/>
             <ingredient name="resourceMechanicalParts" count="18"/>
             <ingredient name="resourceRadiator" count="1"/>
         </recipe>
-    </append>
 
+        <recipe name="mhaStainlessStorageFridge" count="1" craft_time="90">
+            <ingredient name="resourceForgedIron" count="25"/>
+            <ingredient name="resourceElectricParts" count="18"/>
+            <ingredient name="resourceMechanicalParts" count="18"/>
+            <ingredient name="resourceRadiator" count="1"/>
+        </recipe>
+
+    </append>
 </configs>
