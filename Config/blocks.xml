@@ -13,7 +13,6 @@
         <block name="mhaRetroStorageFridge">
             <property name="Extends" value="mhaStorageApplianceBase"/>
             <property name="CreativeMode" value="Player"/>
-            <property name="NameKey" value="mhaRetroStorageFridge"/>
             <property name="CustomIcon" value="cntRetroFridgeVer1Closed"/>
             <property name="DescriptionKey" value="mhaRetroStorageFridgeDesc"/>
             <property name="Material" value="Mmetal"/>
@@ -37,7 +36,6 @@
         <block name="mhaStainlessStorageFridge">
             <property name="Extends" value="mhaStorageApplianceBase"/>
             <property name="CreativeMode" value="Player"/>
-            <property name="NameKey" value="mhaStainlessStorageFridge"/>
             <property name="CustomIcon" value="cntFridgeStainlessSteel"/>
             <property name="DescriptionKey" value="mhaStainlessStorageFridgeDesc"/>
             <property name="Material" value="Mmetal"/>
@@ -61,7 +59,6 @@
         <block name="mhaRetroKitchenStove">
             <property name="Extends" value="campfire"/>
             <property name="CreativeMode" value="Player"/>
-             <property name="NameKey" value="mhaRetroKitchenStove"/>
             <property name="CustomIcon" value="cntStoveOldVer1Closed"/>
             <property name="DescriptionKey" value="mhaRetroKitchenStoveDesc"/>
             <property name="WorkstationWindow" value="workstation_campfire"/>
@@ -91,7 +88,6 @@
         <block name="mhaModernKitchenStove">
             <property name="Extends" value="campfire"/>
             <property name="CreativeMode" value="Player"/>
-            <property name="NameKey" value="mhaModernKitchenStove"/>
             <property name="CustomIcon" value="cntStoveModernVer1Closed"/>
             <property name="DescriptionKey" value="mhaModernKitchenStoveDesc"/>
             <property name="WorkstationWindow" value="workstation_campfire"/>
