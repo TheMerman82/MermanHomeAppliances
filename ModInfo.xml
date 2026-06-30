@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xml>
-    <Name value="MermanFridgeMod"/>
-    <DisplayName value="Merman Fridge Mod"/>
-    <Description value="Makes refrigerators functional storage."/>
+    <Name value="MermanHomeAppliances"/>
+    <DisplayName value="Merman Home Appliances"/>
+    <Description value="Vanilla+ functional home appliances for 7 Days to Die."/>
     <Author value="The_Merman82"/>
-    <Version value="1.0"/>
+    <Version value="0.4.0"/>
 </xml>

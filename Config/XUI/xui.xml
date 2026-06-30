@@ -1,27 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <configs>
-    <append xpath="/xui">
-
-        <window_group name="workstation_mhaRetroKitchenStove">
-            <window name="windowCraftingList"/>
-            <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
-            <window name="windowToolsCampfire"/>
-            <window name="windowFuel"/>
-            <window name="windowOutput"/>
-            <window name="windowNonPagingHeader"/>
-        </window_group>
-
-        <window_group name="workstation_mhaModernKitchenStove">
-            <window name="windowCraftingList"/>
-            <window name="craftingInfoPanel"/>
-            <window name="windowCraftingQueue"/>
-            <window name="windowToolsCampfire"/>
-            <window name="windowFuel"/>
-            <window name="windowOutput"/>
-            <window name="windowNonPagingHeader"/>
-        </window_group>
-
-    </append>
 </configs>
